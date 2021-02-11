@@ -31,8 +31,9 @@
 }
 
 #navbar__logo{
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%,#ffb199 100%);
+    background: #5433FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -40,6 +41,7 @@
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
+    text-align: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -467,9 +469,9 @@
     }
 }
 
-/* Services Section */
+/* Skills Section */
 
-.services{
+.skills{
     background: #131313;
     display: flex;
     flex-direction: column;
@@ -479,7 +481,7 @@
     padding: 10rem 0;
 }
 
-.services h1{
+.skills h1{
     background-color: #ff8177;
     background-image: linear-gradient(to right, #ff0844 0%,#ffb199 100%);
     background-size: 100%;
@@ -491,13 +493,13 @@
     font-size: 2.5rem;
 }
 
-.services__wrapper{
+.skills__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.services__card{
+.skills__card{
     margin: 10px;
     height: 425px;
     width: 300px;
@@ -511,23 +513,23 @@
 }
 
 /*https://uiGradients.com*/
-.services__card:nth-child(2){   /* affecting the 2nd Services card in the html*/
+.skills__card:nth-child(2){   /* affecting the 2nd Services card in the html*/
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.services__card:nth-child(3){   /* affecting the 3nd Services card in the html*/
+.skills__card:nth-child(3){   /* affecting the 3nd Services card in the html*/
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.services__card h2{
+.skills__card h2{
     text-align: center;
 }
 
-.services__card p{
+.skills__card p{
     text-align: center;
     margin-top: 24px;
     font-size: 20px;
@@ -539,7 +541,7 @@
     margin-top: 16px;
 }
 
-.services__card button{
+.skills__card button{
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -549,11 +551,11 @@
     font-size: 1rem;
 }
 
-.services__card button:hover {
+.skills__card button:hover {
     cursor: pointer;
 }
 
-.services__card:hover{
+.skills__card:hover{
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
@@ -562,13 +564,13 @@
 /*Mobile Responsive*/
 
 @media screen and (max-width: 1300px){
-    .services__wrapper{
+    .skills__wrapper{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 768px){
-    .services__wrapper{
+    .skills__wrapper{
         grid-template-columns: 1fr;
     }
 }
