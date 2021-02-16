@@ -514,6 +514,10 @@
         height: 2rem;
     }
 
+    .fa.users, .fa-layer-group{
+        font-size: 2rem;
+    }
+
 }
 
 /* Skills Section */
