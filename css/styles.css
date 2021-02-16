@@ -576,6 +576,11 @@
     margin-top: 16px;
 }
 
+.skills__btn--link{
+    text-decoration: none;
+    color: #fff;
+}
+
 .skills__card button{
     color: #fff;
     padding: 14px 24px;
