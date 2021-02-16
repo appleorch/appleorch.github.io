@@ -316,9 +316,11 @@
 }
 
 .main__content{
+    /*
     text-align: center;
     align-items: center;
     justify-content: center;
+     */
     color: #fff;
     width: 100%;
 }
@@ -337,7 +339,7 @@
 }
 
 .main__content h2{
-    font-size: 3rem;
+    font-size: 4rem;
     background: #ff8177;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #9114ff, #da22ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #8f0eff, #da22ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -413,7 +415,7 @@
     background-image: linear-gradient(to right,#00dbde 0%,#fc00ff 100%);
 }
 
-.fa-id-badge, fa-users{
+.fa-layer-group, fa-users{
     font-size: 14rem;
 }
 
@@ -426,7 +428,6 @@
 
 /* Mobile Responsive */
 @media screen and (max-width: 1100px){
-
     .main__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -448,13 +449,13 @@
     }
 
     .main__img--card{
-        height: 10rem;
-        width: 10rem;
+        height: 425px;
+        width: 425px;
     }
 
     .main__content{
         text-align: center;
-        margin: 4rem;
+        margin-bottom: 4rem;
     }
 
     .main__content h1{
