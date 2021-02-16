@@ -476,8 +476,13 @@
 
 @media screen and(max-width: 480px){
     .main__img--card{
-        width: 0px;
+        width: 250px;
         height: 250px;
+    }
+
+    .main__container {
+        display: flex;
+        justify-content: flex-start;
     }
 
     .fa.users, .fa-layer-group{
@@ -502,6 +507,7 @@
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+
 }
 
 
