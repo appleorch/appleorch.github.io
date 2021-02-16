@@ -479,8 +479,8 @@
         height: 250px;
     }
 
-    .fa.users, .fa-layer-group{
-        font-size: 4rem;
+    .fa.users, .fa-id-badge{
+        font-size: 14rem;
     }
 
     .main__content h1{
