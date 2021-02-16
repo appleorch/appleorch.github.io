@@ -506,7 +506,7 @@
 @media screen and(max-width: 400px) {
     .main__img--card {
         width: 200px;
-        height: 250px;
+        height: 200px;
     }
 }
 
