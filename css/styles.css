@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Kumbh Sans',sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Navbar Section*/
@@ -316,11 +317,9 @@
 }
 
 .main__content{
-    /*
     text-align: center;
     align-items: center;
     justify-content: center;
-     */
     color: #fff;
     width: 100%;
 }
@@ -420,7 +419,7 @@
 }
 
 #card-2{
-    font-size: 14rem;
+    font-size: 8rem;
     background: #ff512f;    /* backup*/
     background: -webkit-linear-gradient(to right,#dd2476,#ff512f); /*https://uigradients.com*/
     background: linear-gradient(to right,#dd2476,#ff512f);
@@ -449,8 +448,8 @@
     }
 
     .main__img--card{
-        height: 425px;
-        width: 425px;
+        height: 50vh;
+        width: 50vw;
     }
 
     .main__content{
@@ -475,8 +474,8 @@
 
 @media screen and(max-width: 480px){
     .main__img--card{
-        width: 250px;
-        height: 250px;
+        width: 50vw;
+        height: 50vh;
     }
 
     .fa.users, .fa-id-badge{
@@ -494,14 +493,16 @@
 
     .main__content p{
         margin-top: 2rem;
-        font-size: 1.5rem;
+        font-size: 0;
     }
 
     .main__btn{
         padding: 12px 36px;
         margin: 2.5rem 0;
     }
+
 }
+
 
 
 /* Skills Section */
