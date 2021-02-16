@@ -449,8 +449,8 @@
     }
 
     .main__img--card{
-        height: 425px;
-        width: 425px;
+        height: 10rem;
+        width: 10rem;
     }
 
     .main__content{
@@ -495,36 +495,6 @@
     .main__content p{
         margin-top: 2rem;
         font-size: 1.5rem;
-    }
-
-    .main__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-}
-
-@media screen and(max-width: 400px){
-    .main__img--card{
-        width: 100px;
-        height: 100px;
-    }
-
-    .fa.users, .fa-layer-group{
-        font-size: 2rem;
-    }
-
-    .main__content h1{
-        font-size: 1rem;
-        margin-top: 1.5rem;
-    }
-
-    .main__content h2{
-        font-size: 1rem;
-    }
-
-    .main__content p{
-        margin-top: 2rem;
-        font-size: 0.75rem;
     }
 
     .main__btn{
