@@ -508,6 +508,10 @@
         width: 200px;
         height: 200px;
     }
+
+    #card-2{
+        font-size: 10rem;
+    }
 }
 
 /* Skills Section */
