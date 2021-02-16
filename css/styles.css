@@ -124,7 +124,7 @@
     background: #833ab4;    /* backup*/
     background: -webkit-linear-gradient(to right,#fcb045,#fd1d1d,#833ab4); /*https://uigradients.com*/
     background: linear-gradient(to right,#fcb045,#fd1d1d,#833ab4);
-    color: #fff;
+    color: #ffffff;
     transition: all 0.3s ease;
 }
 
