@@ -509,6 +509,7 @@
     }
 
     .main__img--card {
+        align-items: center;
         width: 2rem;
         height: 2rem;
     }
